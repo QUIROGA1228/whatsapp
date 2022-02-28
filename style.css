@@ -119,5 +119,43 @@ main{
 
 
 
+@media screen and (max-width: 2000px) and (min-width: 400px){
+    #buton{
+        border: none;
+        font-size: 1rem;
+        color: #dcf8c6;
+        margin-left: 2rem;
+        float:right ;
+        display: flex;
+        flex-wrap: wrap;    
+        
+        
+    }
+    main{
+        /* border: 10px solid red; */
+    }
+      
+}
+
+   
+
+/* @media (min-width: 1393px) and (max-width: 500px){ 
+    #buton{
+        border: none;
+        font-size: 1rem;
+        color: #dcf8c6;
+        margin-left: 8rem;
+        background-color: #e6f0ef;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    
+} */
+
+
+
 
 
