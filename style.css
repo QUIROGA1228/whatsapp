@@ -28,7 +28,7 @@ nav{
     display: flex;
 }
 .chats{
-    border-bottom:  3px solid#f9fff5;
+    border-bottom:  3px solid#ffffff;
    
 }
 aside{
@@ -45,18 +45,18 @@ aside{
     position: sticky;
     top: 0px;
     z-index: 1;
+    justify-content:space-evenly;
 
 }
 #buton{
     border: none;
     font-size: 1rem;
-    color: #dcf8c6;
+    color: #ffffff;
     margin-left: 2rem;
     background-color: #075e54;
     display: flex;
     flex-wrap: wrap;
-    
-    
+    width: 6rem;   
 }
 main{
     display: flex;
@@ -81,7 +81,7 @@ main{
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    top: .5rem;
+    top: .3rem;
     position: relative;
     
 }
@@ -89,11 +89,78 @@ main{
     display: flex;
     position: relative;
     left: 3.5rem;
-    top: -3.5rem;
-    font-size: 1.5rem;     
-    margin: .5rem;
+    top: -3rem;
+    font-size: 1.2rem;     
+    margin: 0;
     
 }
+#articulos i{
+    display: flex;
+    position: relative;
+    left: 0.1rem;
+    top: 0.3rem;
+    font-size: 1rem;     
+    margin: 0;
+}
+#arch{
+    width: 100%;
+    height: 3rem;
+    margin: 1;
+    border: 0px solid green;
+    flex-wrap: wrap;
+}
+#arch small{
+    display: flex;
+    position: relative;
+    left: 3.5rem;
+    top: -5.3rem;
+    font-size: 1.5rem;     
+    margin: .5rem;
+}
+.arc{
+    font-size: cover;
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    top: .7rem;
+    position: relative;
+    color: #075e54;
+}
+#sound{
+    position: absolute;
+    left: 78%;
+    font-size: 1.1rem;
+}
+#call{
+    position: relative;
+    color: red;
+    font-size: 1.1rem;
+    top: 0.2rem;
+}
+#chu{
+    position: relative;
+    color: grey;
+    font-size: 1.2rem;
+    top: 0.3rem;
+}
+#mate{
+    position: relative;
+    color: #53bdeb;
+    font-size: 1.2rem;
+    top: 0.3rem;
+}
+#pin{
+    position: absolute;
+    left: 78%;
+    font-size: 1.1rem;
+    transform: rotate(30deg);
+
+}
+
 
 /* #contactos{
     display: flex;
@@ -127,12 +194,7 @@ main{
         margin-left: 2rem;
         float:right ;
         display: flex;
-        flex-wrap: wrap;    
-        
-        
-    }
-    main{
-        /* border: 10px solid red; */
+        flex-wrap: wrap;
     }
       
 }
